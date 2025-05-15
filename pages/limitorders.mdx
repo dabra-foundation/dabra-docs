@@ -1,0 +1,75 @@
+import { Callout, Steps } from "nextra/components";
+
+# Limit Orders
+
+## Limit Orders
+
+With limit orders, you can buy/sell tokens directly from your DAO treasury.
+
+**Fee:** 1 bps
+
+![](../source/limitOrders/LimitOrdersMain.png)
+
+## Steps to Place a Limit Order
+
+<Steps>
+
+### Step 1 - Select Manifest: Place a limit order and choose the market corresponding to the coin you want to sell or buy
+
+![](../source/limitOrders/marketSelection.png)
+
+### Step 2 - Choose a side
+
+![](../source/limitOrders/side.png)
+
+### Step 3 - Choose the token vault corresponding to the market you selected
+
+For example, if you want to buy BONK, choose the token you want to pay with, e.g., USDC. If you want to sell BONK, choose BONK.
+
+![](../source/limitOrders/selectToken.png)
+
+### Step 4 - Enter token amount and price
+
+1. Enter the total amount of tokens you want to sell.
+2. Enter the price per token.
+3. Check if the summary matches what you want to propose.
+
+![](../source/limitOrders/amount.png)
+
+### Step 5 - Set holdup time
+
+This setting prevents the settlement instruction from executing before the order is filled.
+
+**Recommended:** 15-20 minutes. The setting should depend on the price and liquidity of the selected market.
+
+![](../source/limitOrders/amount.png)
+
+### Step 6 - Submit proposal
+
+After proposing and voting on your limit order, click the **Execute** button. This places the limit order, and the settlement instruction will be blocked from execution for the duration you set in the previous step.
+
+For example, if you set a 5-minute delay, after waiting 5 minutes, you can settle. If the order was filled within that time, the tokens will be transferred to the treasury.
+
+![](../source/limitOrders/Execute0.png)
+![](../source/limitOrders/Execute.png)
+![](../source/limitOrders/Execute2.png)
+
+</Steps>
+
+## Canceling an Order
+
+<Steps>
+
+### Step 1 - Select Manifest: Cancel limit order
+
+![](../source/limitOrders/cancel.png)
+
+### Step 2 - Select the Solana wallet that holds the tokens you wanted to sell/buy
+
+![](../source/limitOrders/cancel1.png)
+
+### Step 3 - Select the order you want to cancel and click **Propose**
+
+![](../source/limitOrders/cancel2.png)
+
+</Steps>

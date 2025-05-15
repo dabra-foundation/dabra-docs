@@ -1,0 +1,53 @@
+{
+  "-": {
+    "type": "separator",
+    "title": "Getting Started"
+  },
+  "index": "Introduction",
+  "interface": "Interface",
+  "glossary": "Glossary",
+  "--": {
+    "type": "separator",
+    "title": "Creation Wizard"
+  },
+  "whatisdao": "What is a DAO?",
+  "setup": "DAOs Setup",
+  "config": "Configuration",
+  "---": {
+    "type": "separator",
+    "title": "User Guides"
+  },
+  "delegation": "Delegation",
+  "treasury": "Treasury",
+  "limitorders": "Limit Orders",
+  "proposal": "Proposals",
+  "council": "Council Members",
+  "civicpass": "Civic Pass",
+  "notifications": "Notifications",
+  "branding": "Logo & Banner",
+  "----": {
+    "type": "separator",
+    "title": "Developer Guides"
+  },
+  "contribute": "Contribute",
+  "createplugin": "Voter Weight Plugin",
+  "instructionIntegration": "Custom Instruction Integration",
+  "-----": {
+    "type": "separator",
+    "title": "Plugins"
+  },
+  "vsr": "VSR Voting",
+  "nftplugin": "NFT Voting",
+  "quadratic": "Quadratic Voting",
+  "------": {
+    "type": "separator",
+    "title": "Resources"
+  },
+  "sdk": "SDK",
+  "customDao": "Custom DAO Form",
+  "-------": {
+    "type": "separator",
+    "title": "Deep Dive"
+  },
+  "spl-governance": "SPL Governance"
+}
