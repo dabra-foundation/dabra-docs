@@ -14,10 +14,6 @@ export default {
     link: "https://github.com/dabra-foundation/dabra-doc/tree/main",
   },
 
-  chat: {
-    link: "https://discord.gg/6UZHcNJFr8",
-  },
-
   navbar: {
     extraContent: (
       <>
@@ -43,8 +39,8 @@ export default {
   banner: {
     key: "2.0-release",
     text: (
-      <a href="https://discord.gg/dabra" target="_blank">
-        💡 Is something not documented? Reach out to us in Discord →
+      <a href="https://twitter.com/dabra" target="_blank">
+        💡 Is something not documented? Reach out to on in X →
       </a>
     ),
   },
